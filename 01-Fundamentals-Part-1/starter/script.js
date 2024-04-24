@@ -68,15 +68,3 @@ console.log(tipsAndTotals);
 console.log(calcAverage(bills));
 console.log()
 */
-
-const printForecast=function(arr){
-    let str=``;
-    for(let i=0;i<arr.length;i++){
-        str+=`...${arr[i]}\u00B0 C`;
-    }
-    return str;
-}
-const data1=[17,21,23];
-const data2=[12,5,-5,0,4];
-console.log(printForecast(data1));
-console.log(printForecast(data2));
