@@ -35,6 +35,7 @@ const restartAgain = function () {
   btnClickCount = 0;
   document.querySelector('.guess').value = '';
   document.querySelector('.number').textContent = number;
+  document.querySelector('.number').textContent = '?';
 };
 document.querySelector('.check').addEventListener('click', validateNumber);
 document.querySelector('.again').addEventListener('click', restartAgain);
